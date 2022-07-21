@@ -19,7 +19,7 @@
         <form action="proses/add.php" method="POST">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nama Produk</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="nama produk" id="nama" require name="nama">
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="nama produk" id="nama" required name="nama">
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Kategori Produk</label>
@@ -32,7 +32,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Harga Produk</label>
-                <input type="number" class="form-control" require id="harga" name="harga">
+                <input type="number" class="form-control" required id="harga" name="harga">
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Status Produk</label>

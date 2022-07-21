@@ -25,11 +25,11 @@
         <h1 align="center">Edit Data Produk</h1><br>
         <form action="proses/update.php" method="POST">
             <div class="mb-3">
-                <input type="hidden" class="form-control" id="exampleInputEmail1" value="<?= $d['id_produk']; ?>"  placeholder="Id Produk" id="id_produk" require name="id_produk">
+                <input type="hidden" class="form-control" id="exampleInputEmail1" value="<?= $d['id_produk']; ?>"  placeholder="Id Produk" id="id_produk" required name="id_produk">
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nama Produk</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" value="<?= $d['nama_produk']; ?>"  placeholder="nama produk" id="nama" require name="nama">
+                <input type="text" class="form-control" id="exampleInputEmail1" value="<?= $d['nama_produk']; ?>"  placeholder="nama produk" id="nama" required name="nama">
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Kategori Produk</label>
